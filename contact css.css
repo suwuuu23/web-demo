@@ -264,14 +264,14 @@ body{
 
 /* responsive handphone */
 @media screen and (max-width:476px) {
-   .navbar1{
+    .navbar1{
         background-color: #F8F8F8;
         position: fixed;
         align-items:center;
         justify-content:center;
         top: 0;
         left:0;
-        width:412px;
+        width:476px;
         padding:2%;
         margin-left:0;
         z-index: 3;
@@ -301,7 +301,7 @@ body{
         padding-top: 20px;
         float:right;
         margin-left: 0px;
-        margin-right: 20px;
+        margin-right: 10px;
     }
     
     .asu{
@@ -346,9 +346,9 @@ body{
     display: flex;
 }
 .judul{
-    margin:100px 0px 0px 70px;
-    font-size: 25px;
-    font-weight:700;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 15px;
 }
 
 /* header end */
