@@ -1,0 +1,266 @@
+body{
+    max-width: 200vh;
+    max-height: 200vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    display:flex;
+    z-index: 3;
+}
+
+/* NAVBAR */
+.navbar1{
+    background-color: #F8F8F8;
+    position: fixed;
+    align-items:center;
+    justify-content:center;
+    top: 0;
+    left:0;
+    width:100%;
+    padding:2%;
+    margin-left:0;
+    z-index: 3;
+
+}
+.about{
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration:none;
+    float:right;
+    margin-left:-140px;
+    margin-right: 20px;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.contactus{
+    text-decoration:none;
+    color:black;
+    font-weight:700;
+    padding: 20px;
+    float:right;
+    margin-right: 40px;
+    z-index: 3;
+}
+
+.home{
+    background-color: grey;
+    border-radius:8px;
+    text-decoration:none;
+    color:white;
+    font-weight:700;
+    padding: 20px;
+    float:right;
+    margin-left: -100px;
+    margin-right: 170px;
+    z-index: 3;
+}
+
+.about:hover{
+    background-color: grey;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    border-radius:8px;
+    color:white;
+    z-index: 3;
+}
+
+.contactus:hover{
+    background-color: grey;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    border-radius:8px;
+    color:white;
+}
+
+.digitalkace{
+    text-decoration:none;
+    color:black;
+    font-size: 35px;
+    font-weight:750;
+    padding: 5px;
+    float:left;
+    margin-left: 40px;
+    z-index: 3;
+}
+/* navbar end */
+
+/* konten */
+.gambar1{
+    display:none;
+}
+
+.dot:hover{
+    color:black;
+    background-color:white;
+    cursor:pointer;
+    
+    
+}
+
+.dot{
+    text-decoration:none;
+    background-color:grey;
+    padding:10px 10px 10px 10px;
+    border-radius:8px;
+    font-weight:700;
+    font-family::Arial;
+    color:white;
+    box-shadow: 4px 5px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 5px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 5px 9px 0px rgba(0,0,0,0.75);
+}
+/* konten end */
+
+
+
+/* responsive handphone */
+@media screen and (max-width:476px){
+    /* navbar */
+    .navbar1{
+        background-color: #F8F8F8;
+        position: fixed;
+        align-items:center;
+        justify-content:center;
+        top: 0;
+        left:0;
+        width:476px;
+        padding:2%;
+        margin-left:0;
+        z-index: 3;
+    }
+    .about{
+        color: black;
+        padding-right: 6px;
+        padding-left:6px;
+        text-decoration:none;
+        padding-top:20px;
+        margin-top:6px;
+        font-size:10px;
+        text-decoration:none;
+        font-weight:700;
+        float:right;
+        margin-left: 10px;
+        margin-right: -4px;
+    }
+    
+    .contactus{
+        margin-top:6px;
+        font-size:10px;
+        text-decoration:none;
+        color:black;
+        font-weight:700;
+        padding-top: 20px;
+        float:right;
+        margin-left: 10px;
+        margin-right: 80px;
+    }
+    
+    .home{
+        background-color:grey;
+        border-radius:8px;
+        margin-top:6px;
+        font-size:10px;
+        text-decoration:none;
+        color:white;
+        font-weight:700;
+        padding-top: 20px;
+        float:right;
+        margin-right:-4px ;
+        margin-left: -12px;
+    }
+    .about:hover{
+        background-color: grey;
+        cursor: pointer;
+        transition: .5s ease-in-out;
+        border-radius:8px;
+        color:white;
+        z-index: 3;
+    }
+    
+    .contactus:hover{
+        background-color: grey;
+        cursor: pointer;
+        transition: .5s ease-in-out;
+        border-radius:8px;
+        color:white;
+    }
+    .digitalkace{
+        max-width: 100px;
+        top: 0;
+        text-decoration:none;
+        color:black;
+        font-size: 20px;
+        font-weight:750;
+        margin-left: 10px;
+    }
+/* navbar end */
+
+.gambar{
+    margin-top:100px;
+}
+
+.pentab{
+    width:400px;
+    height:400px;
+    filter:drop-shadow(2px 2px 10px );
+}
+
+.tombol{
+    margin:-70px 260px 0px 20px;
+}
+
+.dot{
+    text-decoration:none;
+    background-color:grey;
+    padding:10px 10px 10px 10px;
+    border-radius:8px;
+    font-weight:700;
+    font-family::Arial;
+    color:white;
+    box-shadow: 4px 5px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 5px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 5px 9px 0px rgba(0,0,0,0.75);
+}
+
+.judul{
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:-80px;
+    padding:0px 100px 0px 0px;
+    font-family:Arial;
+}
+
+.teks1{
+    font-weight:900;
+    font-size:20px;
+    text-align:left;
+}
+.teks2{
+    margin-top:-30px;
+    font-weight:1000;
+    font-size:30px;
+    text-align:left;
+}
+
+.subjudul{
+    margin-top:-25px;
+    margin-left:20px;
+    padding-right:40px;
+}
+
+.subteks{
+    text-align:justify;
+    color:#808080;
+}
+
+.dot:hover{
+    color:black;
+    background-color:white;
+    cursor:pointer;
+
+    
+}
+
+/* responsive handphone end */
